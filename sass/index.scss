@@ -35,6 +35,16 @@ body{
 					height: 100%;
 					display: block;
 					width: 100%;
+					position: relative;
+					span{
+						margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+					}
 				}
 			}
 		}
