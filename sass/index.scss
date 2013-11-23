@@ -1,0 +1,45 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+}
+
+.row{
+	max-width: 100%;
+	height: 50%;
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
+	.row{
+		height: 100%;
+	.columns {
+		padding: 0;
+		margin: 0;
+		border: 0;
+		height: 100%;
+		&.large-4 {
+			width: 33.3333% !important;
+			.panel {
+				padding: 0;
+				margin: 0;
+				border: 0;
+				height: 100%;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 100%;
+				a{
+					line-height: 100%;
+					vertical-align: middle;
+					height: 100%;
+					display: block;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+}
+
