@@ -29,6 +29,49 @@ body{
 				text-align: center;
 				vertical-align: middle;
 				line-height: 100%;
+				font-family: 'IM Fell French Canon', serif;
+				font-size: 1.5em;
+				font-weight: normal;
+				// background-size: 100%;
+				&.one{
+					background: transparent url(../img/bg-leather.jpg) no-repeat 0 0;
+					background-size: cover;
+					a{
+					span{
+					  background-image: none;
+					  margin: auto;
+					  position: absolute;
+					  top: 0; left: 0; bottom: 0; right: 0;
+					  width: 90%;
+					  height: 90%;
+					  line-height: 100px;
+					  vertical-align: middle;
+					  color: #000;
+					  font-weight: bold;
+					  background-size: auto 100%;
+					  background-position: center center;
+					  display: block;
+					  border: 5px solid #000;
+					}
+				}
+				}
+				&.two{
+					// background: transparent url(../img/bg-4.jpg) no-repeat 0 0;
+				}
+				&.three{
+					// background: transparent url(../img/bg-4.jpg) no-repeat 0 0;
+
+				}
+				&.four{
+					// background: transparent url(../img/bg1.jpg) no-repeat 0 0;
+					background-size: cover;
+				}
+				&.five{
+					// background: transparent url(../img/bg-2.jpg) no-repeat 0 0;
+				}
+				&.size{
+					// background: transparent url(../img/bg-5.jpg) no-repeat 0 0;
+				}
 				a{
 					line-height: 100%;
 					vertical-align: middle;
@@ -38,12 +81,29 @@ body{
 					position: relative;
 					span{
 						margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  vertical-align: middle;
+					  position: absolute;
+					  top: 0; left: 0; bottom: 0; right: 0;
+					  width: 50%;
+					  height: 50%;
+					  line-height: 100px;
+					  vertical-align: middle;
+					  color: #000;
+					  font-weight: bold;
+					  background: transparent url(../img/rombo.png) no-repeat 0 0;
+					  background-size: auto 100%;
+					  background-position: center center;
+					  display: block;
+					  em{
+					  	line-height: 100%;
+					  	vertical-align: middle;
+					  	width: 100%;
+					  	position: absolute;
+					  	top: 50%;
+					  	left: 0;
+					  	display: inline-block;
+					  	text-align: center;
+					  	margin-top: -5%;
+					  }
 					}
 				}
 			}
@@ -51,5 +111,13 @@ body{
 	}
 }
 
+}
+
+.clearing-blackout {
+	background: rgba(0, 0, 0, 0.9) !important;
+}
+
+.clearing-assembled .clearing-container .visible-img {
+	background-color: transparent;
 }
 
